@@ -1,18 +1,25 @@
-import Header from './sections/Header';
-import Hero from './sections/Hero';
-import Features from './sections/Features';
-import Footer from './sections/Footer';
+import Navi from './components/Navi.tsx';
+import Profile from './components/Profile.tsx';
+import FeatureSection from './components/Features.tsx';
+import Experience from './components/Experience.tsx';
 
 function App() {
   return (
-    <>
-      <Header />
-      <main className="pt-[4rem]">
-        <Hero />
-        <Features />
-        <Footer />
-      </main>
-    </>
+    <div>
+      <Navi />
+      
+      <div id="profile">
+        <Profile />
+      </div>
+
+      <div id="experience">
+        <Experience />
+      </div>
+
+      <div id="featureSection">
+        <FeatureSection />
+      </div>
+    </div>
   );
 };
 
