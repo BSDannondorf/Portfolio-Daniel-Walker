@@ -21,10 +21,10 @@ function Profile() {
         <button className="btn btn-color-2" onClick={() => window.open('/resume_daniel_walker051525.pdf', '_blank')}>
           Resume
         </button>
-        <button className="btn btn-color-2" onClick={() => window.open('/resume_daniel_walker051525.pdf', '_blank')}>
+        <button className="btn btn-color-2" onClick={() => window.open('https://www.linkedin.com/in/daniel-walker-b74ba0312/', '_blank')}>
           LinkedIn
         </button>
-        <button className="btn btn-color-2" onClick={() => window.open('/resume_daniel_walker051525.pdf', '_blank')}>
+        <button className="btn btn-color-2" onClick={() => window.open('https://github.com/BSDannondorf', '_blank')}>
           GitHub
         </button>
 

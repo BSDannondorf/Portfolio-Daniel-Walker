@@ -23,8 +23,8 @@ function Navi() {
             </div>
             <ul className="menu-links">
                 <li><a href="#profile">Profile</a></li>
-                <li><a href="#about">Experience</a></li>
-                <li><a href="#experience">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#featureSection">Projects</a></li>
             </ul>
         </nav>
     </div>
