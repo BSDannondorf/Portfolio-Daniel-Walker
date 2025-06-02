@@ -12,7 +12,7 @@ function Profile() {
             </div>
     <div className="section__text">
       {/* <p className="section__text__p1">Hello, I'm</p> */}
-      <h1 className="title">Daniel Walker</h1>
+      <h1 className="title !text-[#008000]">Daniel Walker</h1>
       <p className="section__text__p2">Software Developer, Secondary Mathematics Instructor</p>
       <div className="btn-container">
         <button className="btn btn-color-1"  onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=dannondorf@gmail.com&su=Hiring%20Inquiry&body=Hi%20Daniel,%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity.', '_blank')}>

@@ -12,7 +12,7 @@ function App() {
         <Profile />
       </div>
 
-      <div id="experience">
+      <div id="experience" className="!text-[#64748B]">
         <Experience />
       </div>
 

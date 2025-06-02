@@ -81,7 +81,7 @@ const FeatureSection: React.FC = () => {
         {/* <Heading level="h3" className="mt-2">
           Discover our latest shoes designed for style, comfort, and durability.
         </Heading> */}
-        <Heading level="h2">Projects</Heading>
+        <Heading level="h2" className='!text-[#64748B]'>Projects</Heading>
         <br />
       </div>
       
